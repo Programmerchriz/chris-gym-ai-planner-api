@@ -3,7 +3,7 @@
     "target": "ES2022",
     "module": "ESNext",
     "lib": ["ES2022"],
-    "moduleResolution": "node",
+    "moduleResolution": "node10",
     "rootDir": "./",
     "outDir": "./dist",
     "strict": false,
@@ -13,8 +13,6 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "types": ["node"],
-
-    "ignoreDeprecations": "6.0"
   },
   "include": ["./**/*", "./generated", "./src/lib", "./src/routes"],
   "exclude": ["node_modules", "dist"]
