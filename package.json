@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:server": "tsx watch src/index.ts",
-    "build": "npm run build --workspace . && npm run build --workspace server"
+    "build": "npm run build && npm run build server"
   },
   "keywords": [],
   "author": "",
