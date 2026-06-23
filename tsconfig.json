@@ -16,6 +16,6 @@
 
     "ignoreDeprecations": "6.0"
   },
-  "include": ["./**/*", "../gym-ai-planner-api/generated", "../gym-ai-planner-api/lib", "../gym-ai-planner-api/routes"],
+  "include": ["./**/*", "./generated", "./src/lib", "./src/routes"],
   "exclude": ["node_modules", "dist"]
 }
